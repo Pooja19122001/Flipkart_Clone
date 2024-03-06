@@ -1,0 +1,132 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.autopic1{
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    width: 100vw;
+    transform: translate(0vw);
+    animation: slider1 5s  1s forwards;
+    /* animation-iteration-count: infinite; */
+}
+.autopic2{
+    transform: translate(0vw);
+    animation: slider2 5s 2s forwards;
+    /* animation-iteration-count: infinite; */
+}
+.autopic3{
+    transform: translate(-66vw);
+    animation: slider3 5s 4s forwards;
+    /* animation-iteration-count: infinite; */
+}
+.autopic4{
+    transform: translate(-160vw);
+    animation: slider4 5s 6s forwards;
+    /* animation-iteration-count: infinite; */
+}
+.autopic5{
+    transform: translate(-245vw);
+    animation: slider5 5s 8s forwards;
+    /* animation-iteration-count: infinite; */
+}
+.autopic6{
+    transform: translate(-330vw);
+    animation: slider6 5s 10s forwards;
+    /* animation-iteration-count: infinite; */
+}
+.autopic7{
+    transform: translate(-452vw);
+    animation: slider7 5s 12s forwards;
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes slider1{
+    0%{
+        transform: translate(0vw);
+    }
+    100%{
+        transform: translate(-108vw);
+    }
+}
+
+@keyframes slider2{
+    0%{
+        transform: translate(0vw);
+    }
+    50%{
+        transform: translate(-105vw);
+    }
+    100%{
+        transform: translate(-209vw);
+    }
+}
+
+@keyframes slider3{
+    0%{
+        transform: translate(-66vw);
+    }
+    50%{
+        transform: translate(-209vw);
+    }
+    100%{
+        transform: translate(-313vw);
+    }
+} 
+@keyframes slider4{
+    0%{
+        transform: translate(-160vw);
+    }
+    50%{
+        transform: translate(-314vw);
+    }
+    100%{
+        transform: translate(-417vw);
+    }
+} 
+@keyframes slider5{
+    0%{
+        transform: translate(-245vw);
+    }
+    50%{
+        transform: translate(-417vw);
+    }
+    100%{
+        transform: translate(-521vw);
+    }
+} 
+@keyframes slider6{
+    0%{
+        transform: translate(-330vw);
+    }
+    50%{
+        transform: translate(-521vw);
+    }
+    100%{
+        transform: translate(-626vw);
+    }
+} 
+@keyframes slider7{
+    0%{
+        transform: translate(-452vw);
+    }
+    50%{
+        transform: translate(-626vw);
+    }
+    100%{
+        transform: translate(-730vw);
+    }
+} 
+
+@media  screen and (min-width: 700px) {
+    body{
+        footer .out1 .out2 a{
+            text-decoration: none;
+        }
+        footer .out1 .out2 a:hover{
+            text-decoration: underline;
+        }
+    }
+}
